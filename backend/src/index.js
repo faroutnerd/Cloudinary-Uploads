@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import path from 'path';
 import cors from 'cors';
-import fileupload from 'express-fileupload';
+import fileupload from 'express-fileupload';  // Middleware for file uploads
 import paperRoute from './routes/paper.route.js'; // New route for papers
 import { connectDB } from './lib/db.js';
 
