@@ -1,8 +1,8 @@
-import Paper from "../model/Paper.js"
+import Paper from "../model/lecture.model.js"
 import cloudinary from '../lib/cloudinary.js';
 import fs from 'fs';
 
-export const createPaper = async (req, res) => {
+export const uploadLecture = async (req, res) => {
   try {
     const {
       paper_code,
@@ -64,3 +64,13 @@ export const createPaper = async (req, res) => {
     res.status(500).json({ error: 'Server error' });
   }
 };
+
+export const getLecture = async (req, res) => {
+
+  try {
+    // const 
+  } catch (error) {
+    
+  }
+
+}
